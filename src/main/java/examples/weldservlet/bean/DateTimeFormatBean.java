@@ -2,8 +2,10 @@ package examples.weldservlet.bean;
 
 import java.time.format.DateTimeFormatter;
 
+import javax.enterprise.context.Dependent;
 import javax.inject.Inject;
 
+@Dependent
 public class DateTimeFormatBean {
 
     @Inject
